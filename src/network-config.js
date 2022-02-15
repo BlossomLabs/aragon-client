@@ -97,7 +97,8 @@ export const networkConfigs = {
         localEnsRegistryAddress || '0x7EdE100965B1E870d726cD480dD41F2af1Ca0130',
     },
     nodes: {
-      defaultEth: 'wss://rpc-mainnet.matic.network',
+      defaultEth:
+        'wss://polygon-mainnet.g.alchemy.com/v2/CYIDc3XpOQ_gu7tVeeBXdhCqiXLNnR10',
     },
     settings: {
       chainId: 137,
