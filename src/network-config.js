@@ -91,6 +91,27 @@ export const networkConfigs = {
     },
     providers: [{ id: 'provided' }, { id: 'frame' }],
   },
+  polygon: {
+    addresses: {
+      ensRegistry:
+        localEnsRegistryAddress || '0x7EdE100965B1E870d726cD480dD41F2af1Ca0130',
+    },
+    nodes: {
+      defaultEth: 'wss://rpc-mainnet.matic.network',
+    },
+    settings: {
+      chainId: 137,
+      name: 'polygon',
+      shortName: 'polygon',
+      type: 'private',
+      live: true,
+    },
+    providers: [
+      { id: 'provided' },
+      { id: 'frame' },
+      portisDappId ? { id: 'portis', conf: portisDappId } : null,
+    ].filter(p => p),
+  },
   // xDai is an experimental chain in the Aragon Client. It's possible
   // and expected that a few things will break.
   xdai: {
