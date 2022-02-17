@@ -94,7 +94,7 @@ export const networkConfigs = {
   polygon: {
     addresses: {
       ensRegistry:
-        localEnsRegistryAddress || '0x7EdE100965B1E870d726cD480dD41F2af1Ca0130',
+        localEnsRegistryAddress || '0x4E065c622d584Fbe5D9078C3081840155FA69581',
     },
     nodes: {
       defaultEth:
