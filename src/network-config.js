@@ -16,7 +16,8 @@ export const networkConfigs = {
         localEnsRegistryAddress || '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
     },
     nodes: {
-      defaultEth: 'wss://mainnet.eth.aragon.network/ws',
+      defaultEth:
+        'wss://eth-mainnet.alchemyapi.io/v2/dImjjNaKbuSOum7Jm4hotH_cLzHOpW7u',
     },
     settings: {
       chainId: 1,
