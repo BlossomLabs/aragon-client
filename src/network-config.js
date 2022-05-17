@@ -17,7 +17,7 @@ export const networkConfigs = {
     },
     nodes: {
       defaultEth:
-        'wss://eth-mainnet.alchemyapi.io/v2/m7LQXXlgaZzKkpLI44JFHtWxHKXtHIpl',
+        'wss://mainnet.infura.io/ws/v3/fb8cf9d97ab44df7b4a268b282c04803',
     },
     settings: {
       chainId: 1,
